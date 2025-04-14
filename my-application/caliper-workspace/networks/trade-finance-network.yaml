@@ -1,0 +1,20 @@
+name: Caliper Test Network
+version: "2.0.0"
+caliper:
+  blockchain: fabric
+channels:
+  - channelName: mychannel
+    contracts:
+      - id: tradeFinance
+organizations:
+  - mspid: Org1MSP
+    identities:
+      certificates:
+        - name: 'appUser'
+          clientPrivateKey:
+            path: '/home/fabric/fabric-samples/asset-transfer-basic/my-application/wallet/appUser.key'
+          clientSignedCert:
+            path: '/home/fabric/fabric-samples/asset-transfer-basic/my-application/wallet/appUser.crt'
+    connectionProfile:
+      path: '/home/fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.yaml'
+      discover: true

@@ -1,0 +1,22 @@
+{
+  "name": "my-chaincode",
+  "version": "1.0.0",
+  "description": "Trade Finance Chaincode for Import/Export",
+  "main": "lib/tradeFinance.js",
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.8",
+    "fabric-network": "^2.2.20",
+    "fabric-shim": "^2.5.8"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
+}

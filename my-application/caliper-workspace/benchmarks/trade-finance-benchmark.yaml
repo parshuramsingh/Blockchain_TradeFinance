@@ -1,0 +1,84 @@
+test:
+  name: trade-finance-benchmark
+  description: Benchmark for tradeFinance chaincode
+  workers:
+    type: local
+    number: 1
+
+  contracts:
+    - id: tradeFinance  # Ensure this matches your chaincode name exactly
+
+  rounds:
+    - label: create-application
+      description: Test createApplication performance
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 5
+      workload:
+        module: workload/createApplication.js
+        arguments:
+          contractId: tradeFinance
+          totalApplications: 100
+
+    - label: get-application
+      description: Test getApplication performance
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 5
+      workload:
+        module: workload/getApplication.js
+        arguments:
+          contractId: tradeFinance
+          totalApplications: 100
+      preDelay: 30000
+
+    - label: approve-by-issuing-bank
+      description: Test approveByIssuingBank performance
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 5
+      workload:
+        module: workload/approveByIssuingBank.js
+        arguments:
+          contractId: tradeFinance
+          totalApplications: 100
+      preDelay: 30000
+
+    - label: approve-by-beneficiary-bank
+      description: Test approveByBeneficiaryBank performance
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 5
+      workload:
+        module: workload/approveByBeneficiaryBank.js
+        arguments:
+          contractId: tradeFinance
+          totalApplications: 100
+      preDelay: 100000
+
+    - label: approve-and-ship-by-beneficiary
+      description: Test approveAndShipByBeneficiary performance
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 5
+      workload:
+        module: workload/approveAndShipByBeneficiary.js
+        arguments:
+          contractId: tradeFinance
+          totalApplications: 100
+      preDelay: 30000
+
+blockchain:
+  type: fabric
+  config: network-config.yaml
+
