@@ -1,4 +1,4 @@
-# -TradeChain---Blockchain-Trade-Finance-Solution
+# TradeChain-Blockchain-Trade-Finance-Solution
 
 > A production-grade, privacy-aware trade finance platform built on **Hyperledger Fabric**, enabling secure, automated workflows for banks, applicants, and beneficiaries within a permissioned blockchain network.
 
