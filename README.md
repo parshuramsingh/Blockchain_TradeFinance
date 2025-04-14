@@ -3,13 +3,17 @@
 > A production-grade, privacy-aware trade finance platform built on **Hyperledger Fabric**, enabling secure, automated workflows for banks, applicants, and beneficiaries within a permissioned blockchain network.
 
 
-![Hyperledger Fabric](https://img.shields.io/badge/Blockchain-Hyperledger%20Fabric-blue?style=flat-square&logo=hyperledger)
-![Node.js](https://img.shields.io/badge/Backend-Node.js-green?style=flat-square&logo=node.js)
-![GitHub last commit](https://img.shields.io/github/last-commit/parshuramsingh/parshuramsingh-TradeChain-Blockchain-Trade-Finance-Solution?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/parshuramsingh/parshuramsingh-TradeChain-Blockchain-Trade-Finance-Solution?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/parshuramsingh/parshuramsingh-TradeChain-Blockchain-Trade-Finance-Solution?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/parshuramsingh/parshuramsingh-TradeChain-Blockchain-Trade-Finance-Solution?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/parshuramsingh/parshuramsingh-TradeChain-Blockchain-Trade-Finance-Solution?style=flat-square)
+![Blockchain](https://img.shields.io/badge/Tech-Blockchain-blue)
+![Hyperledger Fabric](https://img.shields.io/badge/Framework-Hyperledger%20Fabric-blue)
+![Backend](https://img.shields.io/badge/Role-Backend-lightgrey)
+![Node.js](https://img.shields.io/badge/Runtime-Node.js-brightgreen)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/parshuramsingh/Blockchain_TradeFinance?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/parshuramsingh/Blockchain_TradeFinance?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/parshuramsingh/Blockchain_TradeFinance?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/parshuramsingh/Blockchain_TradeFinance?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/parshuramsingh/Blockchain_TradeFinance?style=flat-square)
+
 
 
 ---
