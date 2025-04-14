@@ -37,8 +37,6 @@
 
 ---
 
-## 🖥️ Screenshots
-
 ### ✅ CLI App Execution – `initLedger`
 ```bash
 🔄 Connecting to Hyperledger Fabric network...
