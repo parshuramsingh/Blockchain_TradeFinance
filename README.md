@@ -22,7 +22,7 @@
 
 **TradeChain** addresses the complexities of trade finance by replacing manual, paper-based processes with a **secure, decentralized application** on Hyperledger Fabric. It enhances trust, transparency, and speed in trade documentation and finance operations.
 
-> 🔐 **Permissioned Blockchain** | 📄 **Smart Contracts** | 🧾 **KYC Integration (WIP)** | ⚡ **High Performance**
+> 🔐 **Permissioned Blockchain** | 📄 **Smart Contracts** | ⚡ **High Performance**
 
 ---
 
