@@ -3,7 +3,6 @@
 
 ![Hyperledger Fabric](https://img.shields.io/badge/Blockchain-Hyperledger%20Fabric-blue?style=for-the-badge)  
 ![Status](https://img.shields.io/badge/Status-Production--Ready-success?style=for-the-badge)  
-![License](https://img.shields.io/github/license/parshuramsingh/Blockchain_TradeFinance?style=for-the-badge)
 
 ## 📌 Overview
 
@@ -58,19 +57,6 @@
 ```bash
 cd benchmark
 npx caliper launch manager --caliper-config caliper-config.yaml --caliper-benchmark benchmark-config.yaml
-```
-
----
-
-## 📁 Project Structure
-
-```
-Blockchain_TradeFinance/
-├── chaincode/            # JavaScript Smart Contracts
-├── fabric-network/       # Dockerized Fabric setup
-├── cli-app/              # Node.js CLI interface
-├── benchmark/            # Caliper configs and workload modules
-└── README.md
 ```
 
 ---
