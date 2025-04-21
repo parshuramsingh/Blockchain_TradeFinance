@@ -1,4 +1,4 @@
-# 🚢 TradeChain – Blockchain Trade Finance Solution  
+#  TradeChain – Blockchain Trade Finance Solution  
 *A secure, permissioned trade finance platform powered by Hyperledger Fabric*
 
 ![Hyperledger Fabric](https://img.shields.io/badge/Blockchain-Hyperledger%20Fabric-blue?style=for-the-badge)  
