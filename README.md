@@ -20,7 +20,6 @@
 - 📦 **Node.js CLI** tool to interact with network transactions
 - 📊 **Hyperledger Caliper** benchmarks for realistic performance testing
 - 🏦 Full lifecycle support: Application Creation → Multi-party Approval → Closure
-- ⚠️ MVCC conflict handling and transaction retries
 - 🔄 Modular workload modules for stress testing
 
 ---
@@ -47,39 +46,6 @@
 |    Dockerized Network    |
 +--------------------------+
 ```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/parshuramsingh/Blockchain_TradeFinance.git
-cd Blockchain_TradeFinance
-```
-
-### 2. Start the Fabric Network
-
-```bash
-cd fabric-network
-./start.sh
-```
-
-### 3. Deploy Smart Contracts
-
-```bash
-./deployChaincode.sh
-```
-
-### 4. Use the CLI Tool
-
-```bash
-cd cli-app
-node app.js
-```
-
-Explore application creation, approval, rejection, and closure directly via CLI.
 
 ---
 
@@ -125,13 +91,7 @@ Blockchain_TradeFinance/
 
 **Parshuram Singh**  
 *Blockchain-Focused Frontend Developer*  
-🔗 [LinkedIn](https://www.linkedin.com/in/parshuramsingh) | 🌐 [Portfolio](#) | 📧 parshuramsingh.dev@gmail.com
-
----
-
-## ⭐ GitHub Stats
-
-![Parshuram's GitHub stats](https://github-readme-stats.vercel.app/api?username=parshuramsingh&show_icons=true&theme=radical)
+🔗 [LinkedIn](https://www.linkedin.com/in/parshuramsingh) |
 
 ---
 
