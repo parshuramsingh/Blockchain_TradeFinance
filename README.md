@@ -12,7 +12,7 @@
 
 > 🔗 Built on **Hyperledger Fabric**, this system enforces strict multi-stage trade workflows between four key participants: **Applicant**, **Applicant's Bank**, **Beneficiary**, and **Beneficiary's Bank**.
 
-> 💡 Through automation, privacy, and performance, TradeChain reduces the trade lifecycle from **14 steps** to **7**, and achieves up to **800 TPS** under test conditions.
+> 💡 Through automation, privacy, and performance, TradeChain reduces the trade lifecycle from **14 steps** to **7**, and achieves up to **1600 TPS** under test conditions.
 
 > 🚫 **Live Link Unavailable**:  
 Live deployment is not publicly hosted due to the project's complex Hyperledger Fabric setup. It requires Docker-based orchestration of peers, orderers, and Fabric CA, which needs cloud infrastructure (e.g., multiple AWS VMs). This makes a public live demo **impractical without enterprise-level hosting**.
